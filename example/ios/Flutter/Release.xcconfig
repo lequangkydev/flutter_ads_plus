@@ -1,0 +1,7 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
+#include "Generated.xcconfig"
+
+// Override Flutter's Generated.xcconfig which wrongly excludes arm64.
+// On Apple Silicon Macs the iOS simulator runs arm64 natively, so we
+// only exclude legacy i386.
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = i386

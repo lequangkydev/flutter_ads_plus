@@ -1,0 +1,109 @@
+<com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Spacer -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <!-- App Icon -->
+                <LinearLayout
+                    android:layout_width="42dp"
+                    android:layout_height="42dp">
+
+                    <ImageView
+                        android:id="@+id/ad_app_icon"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/common_image_shape" />
+                </LinearLayout>
+
+                <!-- text -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="5dp">
+
+                    <!-- headline row with inline Ad badge -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="19dp"
+                            android:layout_height="11dp"
+                            android:layout_marginEnd="4dp"
+                            android:background="@drawable/ad_text_background"
+                            android:gravity="center"
+                            android:text="Ad"
+                            android:textColor="@color/white"
+                            android:textSize="9sp" />
+
+                        <!-- headline -->
+                        <TextView
+                            android:id="@+id/ad_headline"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:fontWeight="500"
+                            android:maxLines="1"
+                            android:text="TextView"
+                            android:textColor="@color/primary"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <!-- ad_advertise -->
+                    <TextView
+                        android:id="@+id/ad_body"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontWeight="500"
+                        android:maxLines="2"
+                        android:text="sdfsdfsd"
+                        android:textColor="#000000"
+                        android:textSize="10sp" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/ad_call_to_action"
+                    android:layout_width="110dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/small_ad_button"
+                    android:gravity="center"
+                    android:text="button"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <!-- Spacer -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="8dp"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.gms.ads.nativead.NativeAdView>
