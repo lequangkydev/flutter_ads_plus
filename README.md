@@ -32,7 +32,7 @@ Wrapper for `google_mobile_ads` with native PreloadV2 buffering, per-controller 
 
 ```yaml
 dependencies:
-  flutter_ads_plus: ^1.0.0
+  flutter_ads_plus: ^1.1.0
 ```
 
 Or via CLI:

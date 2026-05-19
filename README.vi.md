@@ -32,7 +32,7 @@ Wrapper cho `google_mobile_ads` kèm native PreloadV2 buffering, stream event th
 
 ```yaml
 dependencies:
-  flutter_ads_plus: ^1.0.0
+  flutter_ads_plus: ^1.1.0
 ```
 
 Hoặc qua CLI:
