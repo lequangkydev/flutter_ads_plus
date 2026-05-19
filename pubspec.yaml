@@ -1,22 +1,22 @@
 name: flutter_ads_plus
 description: >-
-  AdMob wrapper with native PreloadV2 buffering, per-controller event
-  streams, app-open-resume reactor, and ready-to-use widgets for all 5
-  ad formats (banner, native, interstitial, rewarded, app open).
-version: 1.0.0
+  AdMob wrapper with PreloadV2 buffering, per-controller event streams,
+  app-open-resume reactor, and ready-to-use widgets for banner, native,
+  interstitial, rewarded, app open ads.
+version: 1.1.0
 homepage: https://github.com/lequangkydev/flutter_ads_plus
 repository: https://github.com/lequangkydev/flutter_ads_plus
 issue_tracker: https://github.com/lequangkydev/flutter_ads_plus/issues
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
-  flutter: ">=3.0.0"
+  sdk: ">=3.10.0 <4.0.0"
+  flutter: ">=3.38.1"
 
 dependencies:
   flutter:
     sdk: flutter
-  google_mobile_ads: ^7.0.0
-  internet_connection_checker_plus: ^2.9.1+2
+  google_mobile_ads: ^8.0.0
+  internet_connection_checker_plus: ^3.0.0
   logger: ^2.7.0
   lottie: ^3.3.3
   shared_preferences: ^2.5.5

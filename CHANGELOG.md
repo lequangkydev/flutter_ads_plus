@@ -1,3 +1,23 @@
+## 1.1.0
+
+### Breaking changes
+
+- Bump `google_mobile_ads` to `^8.0.0` (was `^7.0.0`). Hosts must
+  use Android `compileSdk 36` + JDK 17 and iOS deployment target
+  `15.0+`.
+- Bump `internet_connection_checker_plus` to `^3.0.0` (was `^2.9.1+2`).
+- Bump min Dart SDK to `3.10.0` and min Flutter SDK to `3.38.1`.
+- Banner anchored adaptive size now uses
+  `getLargeAnchoredAdaptiveBannerAdSize` (the only non-deprecated
+  variant in GMA 8.x). Banners render taller than 1.0.0.
+
+### Other
+
+- Plugin Android `compileSdk` 34 → 36, JDK 1.8 → 17,
+  `play-services-ads` 24.6.0 → 25.1.0.
+- Shortened `pubspec.yaml` description to satisfy pub.dev 180-char
+  limit.
+
 ## 1.0.0
 
 First public release of **flutter_ads_plus** — a wrapper for

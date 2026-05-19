@@ -233,7 +233,7 @@ class MyAds {
     // Đo bất đồng bộ; [bannerAdSize] có thể `null` trong khoảnh khắc.
     // Banner controller fallback về [AdSize.banner] nếu vẫn null.
     if (navigatorKey.currentContext != null) {
-      AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(
+      AdSize.getLargeAnchoredAdaptiveBannerAdSize(
               MediaQuery.of(navigatorKey.currentContext!).size.width.round())
           .then((value) {
         bannerAdSize = value;
